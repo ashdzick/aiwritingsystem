@@ -2,6 +2,8 @@
 
 A personal writing system for working with AI on content that sounds like you, not like AI. Built around six files that load at the start of every session to give the model the context it needs.
 
+***step by step instructions included at the end, if you need them***
+
 ---
 
 ## Files in This System
@@ -38,3 +40,10 @@ After that:
 ## How the System Grows
 
 This is not a one-time setup. Every session is an opportunity to refine it. The End of Session step in system-prompt.md asks: based on what happened today, should anything be added to voice-rules.md or avoid-patterns.md? The system gets better as you use it.
+
+---
+
+## Detailed Instructions
+
+### Just Getting Started
+If you aren't ready to create a skill, a project or code, this is for you. Download the files (click on each and then "Download Raw File"). Copy and paste the "System Prompt" text into ChatGPT or Claude. Upload all other files as attachments.
