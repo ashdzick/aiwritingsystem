@@ -47,5 +47,3 @@ This is not a one-time setup. Every session is an opportunity to refine it. The 
 
 ### Just Getting Started
 If you aren't ready to create a skill, a project or code, this is for you. Download the files (click on each and then "Download Raw File"). Copy and paste the "System Prompt" text into ChatGPT or Claude. Upload all other files as attachments.
-
-### Create a Project
