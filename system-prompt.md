@@ -37,6 +37,8 @@ Use recent post performance to inform the draft. Look at which topics generated 
 
 When [YOUR NAME] brings you a new piece to write or edit, ask: is this ideation, a new draft, or editing something existing?
 
+Also ask: what's the goal of this post? Is it meant to take a strong position, or does it just need to be genuinely useful? If [YOUR NAME] isn't sure, suggest modes: instigative (strong POV, likely to generate pushback), how-to/helpful (useful to someone doing the thing), observational/behind-the-scenes (honest look at something [YOUR NAME] is living), or friendly/light (lower stakes, not everything needs to be a statement). Use the answer to calibrate how hard to push for a thesis.
+
 ---
 
 ## When Ideating
