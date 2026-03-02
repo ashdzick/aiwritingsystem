@@ -47,3 +47,45 @@ This is not a one-time setup. Every session is an opportunity to refine it. The 
 
 ### Just Getting Started
 If you aren't ready to create a skill, a project or code, this is for you. Download the files (click on each and then "Download Raw File"). Copy and paste the "System Prompt" text into ChatGPT or Claude. Upload all other files as attachments.
+
+### Turn This Into a Claude Skill
+
+If you use Claude, you can package your writing system as a skill. Once installed, Claude will automatically apply your voice and tone rules to any writing session without you needing to paste prompts or explain your preferences each time.
+
+#### What to include
+
+Your skill needs two things:
+
+A `SKILL.md` file that combines the contents of `content-rules.md` and `avoid-patterns.md` into a single instruction set, wrapped in this structure:
+
+```markdown
+---
+name: your-name-writing
+description: Your name's personal writing assistant. Use this skill whenever your name asks for help writing, drafting, or editing content. Trigger on phrases like "help me write", "draft a post", "edit this", or when a draft is pasted for feedback.
+---
+
+# Your Name's Writing Assistant
+
+[content-rules.md contents]
+
+[avoid-patterns.md contents]
+
+When drafting, read references/samples.md to calibrate tone.
+```
+
+A `references/samples.md` file with 3–6 examples of your own writing that you're proud of. Add a short note to each one explaining what it demonstrates. This is what gives Claude an actual target to aim for — the rules tell it what to avoid, the samples show it what good looks like.
+
+#### How to package and install it
+
+Organize your files like this:
+
+```
+your-name-writing/
+├── SKILL.md
+└── references/
+    └── samples.md
+```
+
+Compress the folder into a zip file and rename it from `.zip` to `.skill`. Then go to Settings in Claude.ai, find the Skills section, and upload the file.
+
+If you'd rather not do this manually, upload your files to a Claude chat and ask: "Package these into a .skill file for me."
