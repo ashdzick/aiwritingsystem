@@ -107,6 +107,6 @@ Cowork is Claude's desktop tool for automating file and task management. This is
 
 1. Store all six files in a folder on your computer
 2. Start a Cowork session and point it to the folder
-3. Paste the contents of `system-prompt.md` as your starting instruction
+3. Tell Claude to read `system-prompt.md` and follow it
 
-Claude will read the files directly at the start of each session, including your content calendar and drafts in progress. The full session management workflow in `system-prompt.md` — syncing recent posts, checking the calendar, end-of-session reflection — is designed for this setup.
+Claude will read the files directly at the start of each session, including your content calendar and drafts in progress. The full session management workflow in `system-prompt.md` (syncing recent posts, checking the calendar, end-of-session reflection) is designed for this setup.
