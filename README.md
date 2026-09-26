@@ -2,8 +2,6 @@
 
 A personal writing system for working with AI on content that sounds like you, not like AI. Built around six files that load at the start of every session to give the model the context it needs. *Step by step instructions included at the end, if you need them.*
 
-Read more about how it works at [dzick.com/content/writing-system](https://dzick.com/content/writing-system).
-
 ---
 
 ## Files in This System
